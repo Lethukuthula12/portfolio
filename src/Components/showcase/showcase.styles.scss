@@ -1,0 +1,72 @@
+
+.showcase {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background: url("../../utility/me5.jpg") no-repeat top center/cover;
+
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Chilanka";
+    height: 100%;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    margin-right: 3rem ;
+
+    .title{
+      color: #d7385e;
+      font-family: "Chilanka";
+      animation-name: Moveup;
+      animation-duration: 3s;
+    }
+   .btn{
+     padding: 16px 2rem;
+    background: white;
+    color: #000;
+   }
+   .btn:hover{
+     cursor: pointer;
+     border:white 1px solid;
+     opacity: 0.6;
+   }
+
+    p {
+      font-size: 23px;
+      max-width: 400px;
+      margin: 5px 0 15px;
+      font-family: "Dancing Script";
+    }
+
+  }
+
+}
+@keyframes Moveup{
+  0%{
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  100%{
+   opacity: 1;
+   transform: translate(0);
+  }
+}
+.showcase::before{
+  content: "";
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(0, 0, 0);
+  opacity: 0.7;
+}
+
+.content * {
+  z-index: 3;
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Chilanka&family=Dancing+Script:wght@600&display=swap');
+
+.header{
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  background:transparent;
+  color: white;
+  z-index: 10;
+  top: 0px;
+  padding: 0 30px;
+  opacity: 0.9;
+
+  .logo-container{
+    h1{
+     font-weight: 400;
+     font-size: 30px;
+     margin-left:9rem ;
+     color: white;
+     font-family: "Chilanka";
+    }
+    
+  }
+
+.options{
+  display: flex;
+  margin: 0 2rem;
+.option {
+  padding: 10px 3rem;
+  margin: 0 10px;
+  color: white;
+  font-family: "Chilanka";
+  font-size: 20px;
+}
+.option:hover{
+  border-bottom: #ff4b5c 2px solid;
+ }
+ 
+}
+
+}
+
+a{
+ text-decoration: none;
+}
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}

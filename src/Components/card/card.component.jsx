@@ -1,29 +1,37 @@
 import React from "react";
 import "./card.styles.scss"
 
+import CustomeButton from "../custome-button/custome-button.component"
 
 
-const Card = (props) => (
+
+const Card = ({
+  title,
+  paragraph,
+  firstImage,
+  secondImage,
+  dateOfPublish,
+  technologies,
+}) => (
   <div className="card">
-    <div className="card-content">
-      <h2>{props.title}</h2>
-      <div className="card-par">
-        <p>
-          SuperCar dealership is a small car dearship firm that sells only super
-          cars. they has a great reputation in the whole Province of
-          Kwazulu-Natal. SuperCars have been operating since early 1988.
-          Oparated by the founder Mr Bonginkosi Zikhali then passed to all
-          brothers until the last born Elihle Zikhali. it Generates over 1.5B a
-          year
-        </p>
+    <div id="content" className="content">
+      <div>
+        <h2>{title}</h2>
+        <div className="project-intro">
+          <p>{dateOfPublish}</p>
+          <p>{technologies}</p>
+          <p>{paragraph}</p>
+        </div>
       </div>
-      <div className="card-row">
-      <div className="colomn-1">
-      <h3>Created in</h3>
-      </div>
-      <div className="colomn-2">
-       <img src={props.url} alt={props.alt}></img>
-      </div>
+      <div className="flex-colomns">
+        <div className="row">
+          <div className="col-1">
+            <img src={firstImage} Alt="image1" />
+          </div>
+          <div className="col-2">
+            <img src={secondImage} Alt="image2" />
+          </div>
+        </div>
       </div>
     </div>
   </div>

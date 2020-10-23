@@ -1,11 +1,13 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import Icon from "../../utility/Icon.svg"
 import "./header.styles.scss";
+
 
 const Header = () => (
   <div className="header">
     <Link className="logo-container" to="/">
-      <h1>K2</h1>
+      <img src={Icon} alt="icon" />
     </Link>
     <div className="options">
       <Link className="option" to="/project">

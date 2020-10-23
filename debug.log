@@ -1,0 +1,15 @@
+[1019/104523.251:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1020/021008.105:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1020/021008.105:ERROR:exception_snapshot_win.cc(99)] thread ID 11912 not found in process
+[1020/021008.110:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1020/021008.110:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1020/021008.110:ERROR:exception_snapshot_win.cc(99)] thread ID 3104 not found in process
+[1020/021008.110:ERROR:exception_snapshot_win.cc(99)] thread ID 2652 not found in process
+[1020/021008.112:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1020/021008.112:ERROR:exception_snapshot_win.cc(99)] thread ID 19564 not found in process
+[1020/021008.121:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1020/021008.121:ERROR:exception_snapshot_win.cc(99)] thread ID 5520 not found in process
+[1020/021008.128:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1020/021008.128:ERROR:exception_snapshot_win.cc(99)] thread ID 10752 not found in process
+[1020/021008.147:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1020/021008.147:ERROR:exception_snapshot_win.cc(99)] thread ID 11824 not found in process

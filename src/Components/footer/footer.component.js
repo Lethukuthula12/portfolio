@@ -19,31 +19,47 @@ return (
     <footer class="footer-distributed">
       <div class="footer-left">
         <h3>
-          Lethu<span>kuthula</span>
+          C<span>AP</span>
         </h3>
 
         <p class="footer-company-name">Copyright © {dt}</p>
       </div>
 
       <div class="footer-center">
-        <div>
-          <FaCode className="icon" />
-          <p>
-            <span>LET'S Start Your Project</span>
-          </p>
-        </div>
+        <table>
+          <row>
+            <td>
+              <FaCode className="icon" />
+            </td>
+            <td>
+              <p>
+                <span>LET'S Start Your Project</span>
+              </p>
+            </td>
+          </row>
+          <row>
+            <td>
+              {" "}
+              <FaPhoneAlt className="icon" />
+            </td>
+            <td>
+              <p>+27711819544</p>
+            </td>
+          </row>
+          <row>
+            <td>
+              <FaEnvelope className="icon" />
+            </td>
+            <td>
+              <p>
+                <a href="mailto:LethuFZikhali@gmail.com">
+                  LethuFZikhali@gmail.com
+                </a>
+              </p>
+            </td>
+          </row>
+        </table>
 
-        <div>
-          <FaPhoneAlt className="icon" />
-          <p>+27711819544</p>
-        </div>
-
-        <div>
-          <FaEnvelope className="icon" />
-          <p>
-            <a href="mailto:LethuFZikhali@gmail.com">LethuFZikhali@gmail.com</a>
-          </p>
-        </div>
       </div>
 
       <div class="footer-right">
@@ -56,7 +72,7 @@ return (
 
         <div class="footer-icons">
           <a href="https://www.facebook.com/Lethuk2/">
-            <FaFacebookF  />
+            <FaFacebookF />
           </a>
           <a href="https://twitter.com/lethufl">
             <FaTwitter />

@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 :root{
   max-width: 1400px;
-  --primary-color: lightseagreen;
+  --primary-color: #20b2aa;
   --secondary-color:#ff414d;
 }
 
 
 .card {
- position: relative;
+
 
 
 #content{
   background: #fff;
-  height: 900px;
+  height: 100%;
   background: url("../../utility/drew-beamer-kUHfMW8awpE-unsplash.jpg") no-repeat center center/cover;
 
 h2 {
@@ -59,20 +59,30 @@ width: 100%;
      align-items: center;
      justify-content: center;
 
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
      img {
        padding: 0.6rem;
        max-height: 100%;
        max-width: 100%;
-       flex-shrink: 0;
-       vertical-align: middle;
+     }
+
+     .custome-button {
+       position: relative;
+       height: 70px;
+       width: 150px;
+       left: 40px;;
+       align-items: center;
+       text-align: center;
+       justify-content: space-around;
        
-      
      }
     .col-1, .col-2{
       height: 100%;
+      display: flex;
       align-items: center;
       width: 100%;
-      
     }
     
 }

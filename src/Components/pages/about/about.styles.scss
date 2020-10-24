@@ -1,0 +1,65 @@
+.about {
+  margin-top: 70px;
+
+section {
+  width: 100%;
+height: 100%;
+
+  &.home-intro {
+    background-color:#6666;
+  
+    h1 {
+      font-family: "Dancing Script"; 
+      font-weight: 700;
+      font-size: 60px;
+      color: #E33258;
+      margin-top: 3rem;
+      margin-bottom: 15px;
+      display: inline-block;
+     
+      @media (min-width: 768px) {
+        font-size: 90px;
+      }
+    }
+
+    .icons{
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      justify-content: center;
+
+        .contact-icons {
+          padding: 0 3rem;
+        }
+      @media(max-width:768px)  {
+        flex-direction: column;
+
+      }
+    }
+    
+  
+    h2 {
+      font-family: "Dancing Script";
+      font-weight: 700;
+      font-size: 50px;
+      margin-top: 50px;
+      margin-bottom: 4rem;
+      display: inline-block;
+
+      @media (min-width: 768px) {
+        font-size: 32px;
+      }
+    }
+    .parag{
+    
+      margin: 7rem 7rem;
+      display: inline-block;
+
+      @media(max-width:768px) {
+        margin: 6rem 2rem;
+      }
+    }
+   
+  }
+}
+}

@@ -12,6 +12,9 @@ const Card = ({
   secondImage,
   dateOfPublish,
   technologies,
+  history,
+  linkUrl,
+  match,
 }) => (
   <div className="card">
     <div id="content" className="content">
@@ -26,10 +29,12 @@ const Card = ({
       <div className="flex-colomns">
         <div className="row">
           <div className="col-1">
+            <CustomeButton className="custome-button" />
             <img src={firstImage} Alt="image1" />
           </div>
           <div className="col-2">
             <img src={secondImage} Alt="image2" />
+            <CustomeButton className="custome-button" />
           </div>
         </div>
       </div>

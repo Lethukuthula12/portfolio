@@ -14,19 +14,19 @@
   padding: 0 30px;
   opacity: 0.9;
 
+
   .logo-container{
    img{
      padding-top: 2rem;
      height: 100%;
      width: 100%;
-   }
-    
-    
+   }  
   }
 
 .options{
   display: flex;
   margin: 0 2rem;
+
 .option {
   padding: 10px 3rem;
   margin: 0 10px;
@@ -49,4 +49,31 @@ a{
    box-sizing: border-box;
    margin: 0;
    padding: 0;
+}
+
+@media (max-width: 768px){
+.header {
+  flex-direction: column;
+  height: 210px;
+  
+
+
+ .logo-container {
+   img {
+     padding-top: 0rem;
+   }
+ }
+
+.options {
+  margin: 0 0rem;
+
+ .option {
+   margin: 0 0px 1rem;
+  padding: 0 1rem;
+ }
+  
+}
+  
+}
+
 }

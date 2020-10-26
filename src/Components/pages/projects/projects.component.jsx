@@ -14,22 +14,52 @@ constructor(){
       {
         id: 1,
         title: "SUPERCAR Dealership",
-        dateOfPublish: "Created from 17 June to 28 August 2020",
-        technologies: "React.js|Redux|Node|Firebase|Stripe",
+        dateOfPublish: "Developed from 17 June to 28 August 2020",
+        technologies: "React.js|Scss|Redux|Node|Firebase|Stripe",
         paragraph:
-          "SuperCar dealership is a small car dearship firm that sells only  super cars. they has a great reputation in the whole Province of Kwazulu-Natal. SuperCars have been operating since early 1988. Oparated by the founder Mr Bonginkosi Zikhali then passed to allbrothers until the last born Elihle Zikhali. it Generates over 1.5B a year ",
+          "SuperCar dealership is a small car dearship firm that sells only  super cars. they has a great reputation in the whole Province of Kwazulu-Natal. SuperCars have been operating since early 1988. Oparated by the founder Mr Bonginkosi Zikhali then passed to allbrothers until the last born Elihle Zikhali. it Generates over 100M a year ",
         firstImage: require("../../../utility/car-pic1.PNG"),
         secondImage: require("../../../utility/car-pic3.PNG"),
+        linkUrl1: "https://supercar-dealership.herokuapp.com/",
+        linkUrl2: "https://github.com/Lethukuthula12/Car-dealership",
       },
       {
         id: 2,
+        title: "Your U",
+        dateOfPublish: "10 October to 15 October 2020",
+        technologies: "React.sj|CSS|Firebase",
+        paragraph:
+          "YourU is an online app where you can save your pictures as much as you want. those images are saved secured on a firebase storage",
+        firstImage: require("../../../utility/gal-pic1.PNG"),
+        secondImage: require("../../../utility/gal-pic2.PNG"),
+        linkUrl1: "https://youru-app.herokuapp.com/",
+        linkUrl2: "https://github.com/Lethukuthula12/YourU-Gallery-",
+      },
+      {
+        id: 3,
+        title: "Zumane Truck Service",
+        dateOfPublish: "Developed 30 July to 15 October 2017",
+        technologies: "C#|MVC.Net|APIs|Entinty Framework|SQL",
+        paragraph:
+          "Zumane Truck Service is the logistic company that transport coil from Mines to Eskom (South African electricity public utility). located in Piet Retief. Mpumalanga. 2380 South Africa",
+        firstImage: require("../../../utility/truck1.png"),
+        secondImage: require("../../../utility/truck2.png"),
+        linkUrl1:
+          "https://drive.google.com/drive/u/3/folders/1ljcMhJ1sTzj622IUrvtMVIPDkgFAqjyX",
+        linkUrl2:
+          "https://github.com/Ntombiyoxolo/Bright-Solutions/tree/master/WebAPI",
+      },
+      {
+        id: 4,
         title: "NsiZwa Finance Company",
-        dateOfPublish: "Created from 5 Auguest to 05 October 2020",
+        dateOfPublish: "Developed from 5 Auguest to 05 October 2020",
         technologies: "HTML3|Scss3|Javascript",
         paragraph:
           "NsiZwa Finance Company is a indipendend finance film that is located in Johannesburg founded by Nsizwa Msimama after he called the company after himself. Nsizwa finance is well know as a high performing company at its industry and also being advanced in hiring most driven personal to work for them",
         firstImage: require("../../../utility/fa-pic1.PNG"),
         secondImage: require("../../../utility/fa-pic2.PNG"),
+        linkUrl1: "https://lethukuthula12.github.io/NsizwaFinance/#",
+        linkUrl2: "https://github.com/Lethukuthula12/NsizwaFinance",
       },
     ],
   };
@@ -39,7 +69,7 @@ render(){
  return (
    <div className="project">
     {
-      this.state.collection.map(({title, paragraph, firstImage, secondImage, id, dateOfPublish, technologies})=>(
+      this.state.collection.map(({title, paragraph, firstImage, secondImage, id, dateOfPublish, technologies,linkUrl1, linkUrl2})=>(
         <Card 
         key={id} 
         title={title}  
@@ -48,6 +78,8 @@ render(){
         secondImage={secondImage}
         dateOfPublish={dateOfPublish}
         technologies={technologies}
+        linkUrl1 ={linkUrl1}
+        linkUrl2={linkUrl2}
         />
         
       ))

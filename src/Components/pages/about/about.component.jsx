@@ -13,7 +13,7 @@ const About = () => (
           <section class="home-intro">
             <div class="container">
               <h1>Lethukuthula Zikhali</h1>
-              <h2>Web Developer</h2>
+              <h2>Software Developer</h2>
 
               <div class="footer-icons">
                 <ul className="icons">

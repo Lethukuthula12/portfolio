@@ -37,8 +37,20 @@ constructor(){
       },
       {
         id: 3,
+        title: "Hello! Chat APP",
+        dateOfPublish: "Designed On 07 November 2020",
+        technologies: "Adope XD",
+        paragraph:
+          "Designed an app for Chatting with your loved ones. in this App you can chat, make a call and video record",
+        firstImage: require("../../../utility/chat3.jpg"),
+        secondImage: require("../../../utility/chat1.jpg"),
+        linkUrl1: "",
+        linkUrl2: "",
+      },
+      {
+        id: 4,
         title: "Zumane Truck Service",
-        dateOfPublish: "Developed 30 July to 15 October 2017",
+        dateOfPublish: "Developed 30 July to 15 October 2019",
         technologies: "C#|MVC.Net|APIs|Entinty Framework|SQL",
         paragraph:
           "Zumane Truck Service is the logistic company that transport coil from Mines to Eskom (South African electricity public utility). located in Piet Retief. Mpumalanga. 2380 South Africa",
@@ -50,7 +62,7 @@ constructor(){
           "https://github.com/Ntombiyoxolo/Bright-Solutions/tree/master/WebAPI",
       },
       {
-        id: 4,
+        id: 5,
         title: "NsiZwa Finance Company",
         dateOfPublish: "Developed from 5 Auguest to 05 October 2020",
         technologies: "HTML3|Scss3|Javascript",
@@ -60,6 +72,18 @@ constructor(){
         secondImage: require("../../../utility/fa-pic2.PNG"),
         linkUrl1: "https://lethukuthula12.github.io/NsizwaFinance/#",
         linkUrl2: "https://github.com/Lethukuthula12/NsizwaFinance",
+      },
+      {
+        id: 6,
+        title: "Zame Fashion Design",
+        dateOfPublish: "Designed On 06 November 2020",
+        technologies: "Adope XD",
+        paragraph:
+          "Designed an app for ecommerse app that sells clothes ranging from T-Shirts, Hoddies, Dress and Shoes",
+        firstImage: require("../../../utility/first-pic (2).jpg"),
+        secondImage: require("../../../utility/second-pic.jpg"),
+        linkUrl1: "",
+        linkUrl2: "",
       },
     ],
   };

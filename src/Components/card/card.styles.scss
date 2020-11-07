@@ -25,12 +25,13 @@ h2 {
 .project-intro {
   align-items: center;
   text-align: center;
+  font-size: 15px;
   justify-content: center;
   margin: 0rem 6rem;
 }
 
 p:first-child {
-  font-size: 25px;
+  font-size: 15px;
   font-family: "Dancing Script";
 }
 
@@ -39,7 +40,12 @@ p {
   line-height: 1.6;
   font-family: "Abel";
   padding-top: 1rem;
+  font-size: 17px;
 }
+.tech {
+    font-size: 25px;
+  
+  }
 // flex coloms
 .flex-colomns{
 display: flex;
@@ -112,7 +118,7 @@ width: 100%;
 .card:first-child{
   margin-top: 13rem;
   .tech {
-    font-size: 15px;
+    font-size: 25px;
     padding-right: 2rem;
   }
 }

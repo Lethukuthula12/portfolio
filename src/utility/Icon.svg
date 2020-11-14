@@ -6,7 +6,7 @@
 	.Half_x0020_Highlight_x0020_Blue{fill:url(#SVGID_1_);stroke:#fff;stroke-width:0.25;stroke-miterlimit:1;}
 	.Navy_x0020_Subtle_x0020_Highlight{fill:url(#SVGID_2_);stroke:#fff;stroke-width:0.25;stroke-miterlimit:1;}
 	.st0{fill:#fff;stroke:#fff;stroke-miterlimit:10;}
-	.st1{fill:#20b2aa;stroke:#fff;stroke-miterlimit:10;}
+	.st1{fill:#000;stroke:#fff;stroke-miterlimit:10;}
 	.st2{font-family:'MyriadPro-Regular';}
 	.st3{font-size:60.9051px;}
 </style>

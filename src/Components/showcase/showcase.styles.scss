@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Great+Vibes&family=IBM+Plex+Sans:ital@1&family=Montserrat:ital@1&display=swap');
 
 .showcase {
   height: 100vh;
   width: 100%;
+  z-index: 4;
   position: relative;
-  background: url("../../utility/My_Picture-removebg-preview.png") no-repeat top center/cover;
+  background: url("https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80") no-repeat center center/cover;
 
 
   .content {
@@ -19,22 +21,21 @@
     margin-right: 3rem ;
 
     .title{
-      color: var(--secondary-color);
-      font-family: "Chilanka";
       animation-name: Moveup;
-      animation-duration: 5s;
+      animation-duration: 2s;
+      animation-delay: 2s;
+     font-family: 'Montserrat',
+     sans-serif;
     }
    .btn-primary {
      padding: 16px 2rem;
-    background: white;
-    color: #000;
-    border: 3px var(--primary-color) solid;
+    background: transparent;
+    color: #fff;
     cursor: pointer;
     font-size: 20px;
+    border: 2px white solid;
    }
-   .btn-primary:hover{
-     opacity: 0.4;
-   }
+   
 
 
     p {
@@ -65,8 +66,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  background: rgb(0, 0, 0);
-  opacity: 0.8;
+  background: rgba(233, 231, 231, 0.192);
+  opacity: 0.2;
 }
 
 .content * {

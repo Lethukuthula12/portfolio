@@ -8,6 +8,8 @@ import "./form.styles.scss";
 
 const Form =()=>{
   
+
+
   function SendEmail(e){
   e.preventDefault();
 
@@ -23,12 +25,12 @@ const Form =()=>{
           console.log(result.text);
         },
         (error) => {
-          console.log(error.text);
+          alert(error.text);
         }
       );
        e.target.reset();
   }
-  
+ 
   return (
     <div className="form">
       <form onSubmit={SendEmail}>

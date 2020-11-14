@@ -37,7 +37,7 @@ constructor(){
       },
       {
         id: 3,
-        title: "Hello! Chat APP",
+        title: "Hi! Chat APP",
         dateOfPublish: "Designed On 07 November 2020",
         technologies: "Adope XD",
         paragraph:
@@ -46,7 +46,8 @@ constructor(){
         secondImage: require("../../../utility/chat1.jpg"),
         linkUrl1: "",
         linkUrl2: "",
-      },
+        design: true,
+    },
       {
         id: 4,
         title: "Zumane Truck Service",
@@ -84,6 +85,7 @@ constructor(){
         secondImage: require("../../../utility/second-pic.jpg"),
         linkUrl1: "",
         linkUrl2: "",
+        design: true,
       },
     ],
   };
@@ -92,23 +94,34 @@ constructor(){
 render(){
  return (
    <div className="project">
-    {
-      this.state.collection.map(({title, paragraph, firstImage, secondImage, id, dateOfPublish, technologies,linkUrl1, linkUrl2})=>(
-        <Card 
-        key={id} 
-        title={title}  
-        paragraph={paragraph}
-        firstImage={firstImage} 
-        secondImage={secondImage}
-        dateOfPublish={dateOfPublish}
-        technologies={technologies}
-        linkUrl1 ={linkUrl1}
-        linkUrl2={linkUrl2}
-        />
-        
-      ))
-    }
-    <Footer/>
+     {this.state.collection.map(
+       ({
+         title,
+         paragraph,
+         firstImage,
+         secondImage,
+         id,
+         dateOfPublish,
+         technologies,
+         linkUrl1,
+         linkUrl2,
+         design,
+       }) => (
+         <Card
+           key={id}
+           title={title}
+           paragraph={paragraph}
+           firstImage={firstImage}
+           secondImage={secondImage}
+           dateOfPublish={dateOfPublish}
+           technologies={technologies}
+           linkUrl1={linkUrl1}
+           linkUrl2={linkUrl2}
+           design={design}
+         />
+       )
+     )}
+     <Footer />
    </div>
  );
 }

@@ -38,10 +38,10 @@ const About = () => (
                   <p>
                     I'm a self-taught web developer and UI/UX designer.
                     currently living in Pretoria Hatfield, Home town Mbazwana in
-                    Kwazulu-Natal. I started learning coding in University from
-                    2017 using C# forms, then developed from there. and now i'm
+                    Kwazulu-Natal. I started learning coding in 
+                    2017 using C# forms, then developed from there to MVC.NET using Entity Frameworks. and now i'm
                     deep diving into react.js and more of design. Planning on
-                    continuing my journey with learning Phyton and C++
+                    continuing my journey with learning Phython and C++
                   </p>
                 </div>
               </div>

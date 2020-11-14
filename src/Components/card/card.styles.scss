@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 :root{
   max-width: 1400px;
-  --primary-color: #20b2aa;
+  --primary-color: #2070b2;
   --secondary-color:#ff414d;
 }
 
@@ -13,7 +13,7 @@
 #content{
   background: #fff;
   height: 100%;
-  background: url("../../utility/drew-beamer-kUHfMW8awpE-unsplash.jpg") no-repeat center center/cover;
+  background: #fff;
 
 h2 {
   text-align: center;
@@ -63,6 +63,7 @@ width: 100%;
      overflow: hidden;
      align-items: center;
      justify-content: center;
+     
 
     @media (max-width: 768px) {
       flex-direction: column;
@@ -81,16 +82,35 @@ width: 100%;
       align-items: center;
       width: 100%;
       padding-bottom: 5rem;
+      
+      .error-link{
+        height: 50px;
+        text-align: center;
+        min-width: 40%;
+        max-width: 50%;
+        margin-left:0.6rem;
+        margin-bottom: 0.5rem;
+        background: #000;
+        color:#fff;
+
+        .design-par{
+          color: #fff;
+          font-size: 17px;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+      }
 
        .custome-button {
-         height: 13%;
+         height: 50px;
          min-width: 50%;
          max-width: 70%;
-         border: 2px var(--primary-color) solid;
          margin-left:0.6rem;
-         box-sizing: border-box;
+         margin-bottom: 0.5rem;
          font-size: 19px;
-         font-family: "Abel";
+          color: #fff;
+         background-color: #000;
+         border: 2px #fff solid;
+
        }
        .custome-button:hover{
          cursor: pointer;

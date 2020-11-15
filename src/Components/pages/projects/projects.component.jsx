@@ -15,7 +15,7 @@ constructor(){
         id: 1,
         title: "SUPERCAR Dealership",
         dateOfPublish: "Developed from 17 June to 28 August 2020",
-        technologies: "React.js|Scss|Redux|Node|Firebase|Stripe",
+        technologies: "'React.js|Redux|Scss|' 'Firebase|stripe'",
         paragraph:
           "SuperCar dealership is a small car dearship firm that sells only  super cars. they has a great reputation in the whole Province of Kwazulu-Natal. SuperCars have been operating since early 1988. Oparated by the founder Mr Bonginkosi Zikhali then passed to allbrothers until the last born Elihle Zikhali. it Generates over 100M a year ",
         firstImage: require("../../../utility/car-pic1.PNG"),

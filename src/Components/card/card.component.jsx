@@ -29,13 +29,13 @@ const handleChange =() =>{
 
   return (
     <div className="card">
-      <div id="content" className="content">
-        <div>
+      <div id="card-content">
+        <div className="paragraph">
           <h2>{title}</h2>
 
           <div className="project-intro">
             <p>{dateOfPublish}</p>
-            <p className="tech">{technologies}</p>
+            <p classname="tech">{technologies}</p>
             <p>{paragraph}</p>
           </div>
         </div>

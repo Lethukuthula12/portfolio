@@ -26,6 +26,8 @@
       animation-delay: 2s;
      font-family: 'Montserrat',
      sans-serif;
+
+    
     }
    .btn-primary {
      padding: 16px 2rem;
@@ -77,5 +79,8 @@
 @media (max-width: 768px) {
  .showcase{
    margin-top: 13rem;
+ }
+ .content{
+   padding-left: 3rem;
  }
 }

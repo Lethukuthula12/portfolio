@@ -13,18 +13,42 @@ constructor(){
     collection: [
       {
         id: 1,
+        title: "OnlyBuy",
+        dateOfPublish: "IN PROGRESS",
+        technologies: "React.js|Context",
+        paragraph:
+          "OnlyBuy is the online store used to purchase your favourite clothes ranging from young to adults",
+        firstImage: require("../../../utility/store1.PNG"),
+        secondImage: require("../../../utility/store2.PNG"),
+        linkUrl1: "https://onlybuy.netlify.app/",
+        linkUrl2: "https://github.com/Lethukuthula12/ecommerse",
+      },
+      {
+        id: 1,
+        title: "Corona Virus Tracker",
+        dateOfPublish: "Developed from 10 October to 30 Octoer 2020",
+        technologies: "React.js|Axios",
+        paragraph:
+          "Corona Virus tracker that help users to get a daily updates on confirmed, recovered, deaths cases. The data is access from the international corona virus API ",
+        firstImage: require("../../../utility/corona1.PNG"),
+        secondImage: require("../../../utility/corona2.PNG"),
+        linkUrl1: "https://supercar-dealership.herokuapp.com/",
+        linkUrl2: "https://github.com/Lethukuthula12/Car-dealership",
+      },
+      {
+        id: 2,
         title: "SUPERCAR Dealership",
         dateOfPublish: "Developed from 17 June to 28 August 2020",
         technologies: "'React.js|Redux|Scss|' 'Firebase|stripe'",
         paragraph:
-          "SuperCar dealership is a small car dearship firm that sells only  super cars. they has a great reputation in the whole Province of Kwazulu-Natal. SuperCars have been operating since early 1988. Oparated by the founder Mr Bonginkosi Zikhali then passed to allbrothers until the last born Elihle Zikhali. it Generates over 100M a year ",
+          "SuperCar dealership is a small car dearship firm that sells only  super cars. You can purchase as many cars as you fish completely online",
         firstImage: require("../../../utility/car-pic1.PNG"),
         secondImage: require("../../../utility/car-pic3.PNG"),
         linkUrl1: "https://supercar-dealership.herokuapp.com/",
         linkUrl2: "https://github.com/Lethukuthula12/Car-dealership",
       },
       {
-        id: 2,
+        id: 3,
         title: "Your U",
         dateOfPublish: "10 October to 15 October 2020",
         technologies: "React.sj|CSS|Firebase",
@@ -36,7 +60,7 @@ constructor(){
         linkUrl2: "https://github.com/Lethukuthula12/YourU-Gallery-",
       },
       {
-        id: 3,
+        id: 4,
         title: "Hi! Chat APP",
         dateOfPublish: "Designed On 07 November 2020",
         technologies: "Adope XD",
@@ -47,7 +71,7 @@ constructor(){
         linkUrl1: "",
         linkUrl2: "",
         design: true,
-    },
+      },
       {
         id: 4,
         title: "Zumane Truck Service",

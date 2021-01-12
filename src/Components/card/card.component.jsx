@@ -21,11 +21,6 @@ const Card = ({
   design
 }) => {
 
-const handleChange =() =>{
-  
-}
-
-
 
   return (
     <div className="card">
@@ -41,7 +36,7 @@ const handleChange =() =>{
         </div>
         <div className="flex-colomns">
           <div className="row">
-            <div className="col-1" onClick={handleChange}>
+            <div className="col-1">
               {design ? (
                 <div>
                   <div className="error-link">

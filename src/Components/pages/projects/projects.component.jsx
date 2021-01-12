@@ -15,7 +15,7 @@ constructor(){
         id: 1,
         title: "OnlyBuy",
         dateOfPublish: "IN PROGRESS",
-        technologies: "React.js|Context",
+        technologies: "React.js|Context|React-Router-Dom|Stripe",
         paragraph:
           "OnlyBuy is the online store used to purchase your favourite clothes ranging from young to adults",
         firstImage: require("../../../utility/store1.PNG"),
@@ -32,8 +32,8 @@ constructor(){
           "Corona Virus tracker that help users to get a daily updates on confirmed, recovered, deaths cases. The data is access from the international corona virus API ",
         firstImage: require("../../../utility/corona1.PNG"),
         secondImage: require("../../../utility/corona2.PNG"),
-        linkUrl1: "https://supercar-dealership.herokuapp.com/",
-        linkUrl2: "https://github.com/Lethukuthula12/Car-dealership",
+        linkUrl1: "https://covidrona-app.netlify.app/",
+        linkUrl2: "https://github.com/Lethukuthula12/coronatracker",
       },
       {
         id: 2,
